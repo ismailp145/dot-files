@@ -21,6 +21,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 vim.opt.termguicolors = true
 
+
 require("ismail")
 require("config.lazy")
 
