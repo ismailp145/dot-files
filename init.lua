@@ -19,9 +19,11 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
   end
 end
 vim.opt.rtp:prepend(lazypath)
+vim.opt.termguicolors = true
 
 
 
 require("ismail")
 require("config.lazy")
-print("HELLO FROM INIT.LUA")
+--require('lazy').setup
+
