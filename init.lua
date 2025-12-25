@@ -24,4 +24,3 @@ vim.opt.termguicolors = true
 
 require("ismail")
 require("config.lazy")
-
