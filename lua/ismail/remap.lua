@@ -1,5 +1,8 @@
 vim.g.mapleader = " "
+
+-- Ex out of current file. 
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
+
 -- Toggle neotree (most common)
 vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>', { noremap = true, silent = true })
 
